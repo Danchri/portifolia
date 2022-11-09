@@ -1,0 +1,17 @@
+.first-top{
+    margin-top:100px;
+}
+.hero-tttle span{
+    color: blueviolet;
+
+}
+.hero-tttle{
+    font-weight: 600;
+}
+.hero-img{
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    
+    margin-left: auto;
+}
