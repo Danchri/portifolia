@@ -1,10 +1,24 @@
-import React, {useRef} from "react";
+import React, {useRef, useEffect} from "react";
 import "./hero.css";
 import { Container, Row, Col } from "reactstrap";
 import heroImage from '../../assets/heroku.png'
 import "bootstrap/dist/css/bootstrap.min.css";
+import { init } from 'ityped'
 
 const Hero = () => {
+
+    const textRef = useRef()
+useEffect(()=>{
+    init(textRef.current,{
+        backDelay:1500,
+        showCursor:true,
+        strings:['Daniel Mburu',
+        'A Web developer',
+        'Mobile App Dev',
+        'Hardware and Software technician'
+    ]
+    })
+}, [])    
   return (
     <section className="first-top ">
       <Container>
@@ -14,7 +28,7 @@ const Hero = () => {
               <p className="mb-3">Welcome to my World !</p>
               
               <h2 className="hero-tttle mb-4">
-                I'm <span>Daniel Mburu</span>
+                I'm <span ref={textRef}></span>
               </h2>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error
