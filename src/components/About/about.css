@@ -1,0 +1,64 @@
+.abt-section{
+    margin-top: 80px;
+}
+.tittle{align-items: center;
+justify-content: center;
+display: flex;
+
+
+}
+.tittle h2{
+    color: rgb(233, 125, 9);
+}
+.about-btns{
+    background:#102848;
+    border-radius: 10px;
+    margin-top: 15px;
+   
+
+}
+.abt-btn{
+    
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #fff;
+    padding: 20px;
+    background: transparent;
+    border-bottom: 1px solid #7865ff;
+    border-radius: 5px 0px 5px 0px;
+    
+
+}
+.abt-btn-active{
+    background: #7865ff;
+}
+.abt-btn:last-child{
+    border-bottom: 0;
+}
+.abt-content-wrapper{
+    background:  #132347;
+    padding: 30px;
+    border-radius: 10px;
+
+
+}
+.abt-content h2{
+    margin-bottom: 15px;
+}
+.abt-content p{
+    line-height: 30px;
+    font-weight: 300;
+}
+.social-links span a i{
+    color: #7865ff;
+
+}
+.social-links span{
+    margin-right: 15px;
+}
+.abt-img{
+    background: #7865ff;
+    border-radius: 10px;
+    height: 140px;
+}
